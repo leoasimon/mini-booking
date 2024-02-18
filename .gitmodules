@@ -1,0 +1,6 @@
+[submodule "client"]
+	path = client
+	url = https://github.com/leoasimon/mini-auth_client
+[submodule "api"]
+	path = api
+	url = https://github.com/leoasimon/mini-auth-api

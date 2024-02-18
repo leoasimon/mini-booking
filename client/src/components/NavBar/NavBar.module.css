@@ -1,0 +1,62 @@
+.navbar {
+  margin: 12px;
+  display: flex;
+  justify-content: end;
+  flex: 1;
+}
+
+.navbar > a {
+  margin: 4px;
+  padding: 12px 8px;
+}
+
+.navbar button {
+  border: none;
+  background-color: inherit;
+}
+
+.userSection {
+  position: relative;
+}
+
+.userSection button:hover {
+  cursor: pointer;
+}
+
+.userSection > button > span {
+  margin-right: 4px;
+}
+
+.dropdownMenu {
+  box-sizing: border-box;
+  box-shadow: black 0px 1px 2px 0px;
+  width: 100%;
+  padding: 12px;
+  position: absolute;
+  top: 26px;
+  font-size: 14px;
+  background-color: white;
+}
+
+.dropdownMenu > button {
+  color: var(--purple);
+  text-decoration: underline;
+}
+
+.dropdownMenu > a {
+  text-decoration: none;
+  color: black;
+  width: 100%;
+  display: block;
+  padding: 4px;
+}
+
+.dropdownMenu > a:hover {
+  background-color: var(--lighter-green);
+}
+
+.divider {
+  width: 100%;
+  border-top: solid black 1px;
+  margin: 4px 0;
+}
